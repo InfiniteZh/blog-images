@@ -1,0 +1,1 @@
+这篇文章介绍了如何通过Cloudflare Worker中转api.openai.com来解决网络访问问题，并提供了一个GitHub项目x-dr/chatgptProxyAPI的链接作为参考。同时，文章还介绍了如何在阿里云上搭建V2RAYA进行科学上网，并提供了详细的安装步骤和配置方法。此外，还介绍了如何使用Python环境配置miniconda，并基于开源项目zhayujie/chatgpt-on-wechat搭建微信聊天机器人。文章最后提供了一些使用技巧和参考链接。
