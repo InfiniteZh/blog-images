@@ -64,7 +64,6 @@ function GPT(t) {
             const headers = postElement.querySelectorAll("h1, h2, h3, h4, h5");
             let content = Array.from(headers).map(h => h.innerText).join(" ") + " " + Array.from(paragraphs).map(p => p.innerText.replace(/https?:\/\/[^\s]+/g, "")).join(" ");
             content = title + " " + content;
-            console.log("GPT：文章内容获取成功。"+document.URL);
             const wordLimit = typeof GPT_wordLimit === "undefined" ? 1000 : GPT_wordLimit;
             return content.slice(0, wordLimit);
         } catch (error) {
@@ -76,7 +75,6 @@ function GPT(t) {
     async function fetchGPTContent() {
         const currentPath = document.URL.split('/').filter(Boolean).pop();
         const url = `https://cdn.jsdelivr.net/gh/InfiniteZh/blog-images/description/${currentPath}.txt`;
-        console.log("GPT：正在获取文章摘要", url);
         try {
             const response = await fetch(url);
             if (response.ok) {
