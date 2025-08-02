@@ -1,1 +1,0 @@
-这篇文章介绍了两种Markdown文件导出为PDF的方法：Typora导出和Pandoc导出。Typora导出的排版效果较差，而Pandoc导出需要安装TexLive环境，并使用head.tex模板。文章通过图片展示了两种方法导出后的PDF效果。

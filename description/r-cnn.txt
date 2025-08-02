@@ -1,1 +1,0 @@
-这篇文章介绍了R-CNN及其发展系列算法的详细流程和原理。R-CNN通过Selective Search生成候选区域，用AlexNet提取特征，SVM分类器进行类别判断，并使用NMS去除冗余候选框。Fast R-CNN改进了特征提取过程，实现了对整张图片的特征提取，并引入ROI Pooling层。Faster R-CNN进一步引入了区域建议网络（RPN），用于自动生成候选区域，并通过anchor机制和bounding box regression提高候选区域的准确性。文章还解释了1x1卷积核的作用，包括降维、增加非线性和跨通道信息交互，以及在Inception和ResNet网络中的应用。

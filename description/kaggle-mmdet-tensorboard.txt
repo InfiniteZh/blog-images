@@ -1,1 +1,0 @@
-这篇文章介绍了MMDET的安装与使用，提供了一个在Kaggle上快速安装MMDET的取巧方法，即通过复制并编辑Kaggle上的一个名为"predicting Math Functions"的工程。此外，还介绍了如何在Kaggle上无法直接访问TensorBoard的情况下，使用ngrok进行转发，并提供了ngrok的注册链接。文章还涉及了如何创建CONFIG文件以方便训练和修改，以及如何使用现成的验证方法。最后，提供了两个参考链接，一个是CSDN上关于MMDET的文章，另一个是Kaggle上的"predicting Math Functions"工程。

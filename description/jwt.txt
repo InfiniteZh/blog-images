@@ -1,1 +1,0 @@
-这篇文章介绍了JWT（JSON Web Token）的认证方式，它是一种用于安全传输信息的开放标准。JWT通过加密生成token，使得服务端无需保存session数据即可验证用户信息，从而实现无状态的服务端扩展。文章还比较了基于session的传统认证和基于token的认证方式，解释了JWT的结构，包括Header、Payload和Signature三部分，并讨论了使用JWT的场景，如授权和信息交换。此外，文章还介绍了JWT的工作流程，以及它与基于服务器的身份认证方式相比的优势。最后，文章简要提到了Spring Boot中使用JWT的方法。

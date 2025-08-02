@@ -1,1 +1,0 @@
-这篇文章介绍了Quartus II中Modelsim仿真软件的使用，包括与TestBench结合进行仿真、仿真技巧和软件bug的解决方法。作者分享了如何通过TestBench自动生成模板、编写TestBench代码、配置Modelsim以及如何重新编译和运行仿真。还介绍了在Modelsim中加入变量的方法，并分享了一个关于MIF文件读取问题的解决方案。

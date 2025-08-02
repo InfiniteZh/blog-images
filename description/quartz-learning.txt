@@ -1,1 +1,0 @@
-这篇文章介绍了时间轮的实现原理和结构，以及Quartz定时任务框架的核心概念和在Spring Boot中的实现方法。时间轮是一个基于数组实现的循环队列，每个槽存储任务列表，并通过指针触发任务执行。Quartz框架中，Scheduler负责调度，Trigger定义任务执行时间规则，JobDetail记录任务信息，Job执行业务逻辑。文章还详细说明了在Spring Boot中如何配置Quartz，创建JobDetail和Job类，并通过JobDataMap传递数据。
